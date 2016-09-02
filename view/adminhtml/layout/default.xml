@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <meta name="magento2-module" content="http://www.mozg.com.br/"/>
+        <css src="Mozg_BoxPacker::css/internal/icons-font.css"/>
+    </head>
+    <body>
+        <!--<referenceContainer name="before.body.end">
+            <block class="Mozg\Base\Block\Referencecontainer" name="mozg.base.before.body.end" as="mozg.base.before.body.end" template="referencecontainer.phtml"/>
+        </referenceContainer>-->
+    </body>
+</page>

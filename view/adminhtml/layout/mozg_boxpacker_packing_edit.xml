@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="editor"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="Mozg\BoxPacker\Block\Adminhtml\Packing\Edit" name="mozg_boxpacker_packing_edit"/>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="Mozg\BoxPacker\Block\Adminhtml\Packing\Edit\Tabs" name="mozg_boxpacker_packing_tabs">
+                <block class="Mozg\BoxPacker\Block\Adminhtml\Packing\Edit\Tab\Packing" name="mozg_boxpacker_packing_edit_tab_packing"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">packing</argument>
+                    <argument name="block" xsi:type="string">mozg_boxpacker_packing_edit_tab_packing</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

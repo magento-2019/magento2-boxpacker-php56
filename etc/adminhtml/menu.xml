@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!--<add id="Mozg_BoxPacker::boxpacker" title="Manage Box/Packer" module="Mozg_BoxPacker" sortOrder="29" parent="Mozg_Base::mozg" resource="Mozg_BoxPacker::boxpacker"/>-->
+        <add id="Mozg_BoxPacker::packing" title="Packings" module="Mozg_BoxPacker" sortOrder="10" action="mozg_boxpacker/packing" resource="Mozg_BoxPacker::packing" parent="Mozg_Base::mozg"/>
+    </menu>
+</config>

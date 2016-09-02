@@ -1,0 +1,15 @@
+/* http://tableless.com.br/utilizando-icones-formato-font/ */
+@font-face{
+    font-family:ml-icon-new;
+    src:
+        url(http://d25zlb44gqlazw.cloudfront.net/static/css/default/fonts/ml-icon-new-e65a32fb.eot);
+    src:
+        url(http://d25zlb44gqlazw.cloudfront.net/static/css/default/fonts/ml-icon-new-e65a32fb.eot?#iefix) format('eot'),
+        url(http://d25zlb44gqlazw.cloudfront.net/static/css/default/fonts/ml-icon-new-50d30cba.woff) format('woff'),
+        url(http://d25zlb44gqlazw.cloudfront.net/static/css/default/fonts/ml-icon-new-0b92ed49.ttf) format('truetype'),
+        url(http://d25zlb44gqlazw.cloudfront.net/static/css/default/fonts/ml-icon-new-32aa558a.svg#ml-icon-new) format('svg')
+}
+
+
+
+icon-width:before{content:"\E056"}
